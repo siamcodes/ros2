@@ -1,0 +1,29 @@
+[14.031s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclpy_minimal_action_server': PYTHONPATH=/home/eleclabs/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/eleclabs/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[18.220s] running develop
+[22.255s] Removing /home/eleclabs/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples-rclpy-minimal-action-server.egg-link (link to .)
+[26.637s] Invoked command in '/home/eleclabs/ros2_ws/build/examples_rclpy_minimal_action_server' returned '0': PYTHONPATH=/home/eleclabs/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/eleclabs/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[26.659s] Invoking command in '/home/eleclabs/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/eleclabs/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/eleclabs/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/eleclabs/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data --force
+[33.451s] Traceback (most recent call last):
+[33.451s]   File "/home/eleclabs/ros2_ws/src/examples/rclpy/actions/minimal_action_server/setup.py", line 1, in <module>
+[33.452s]     from setuptools import setup
+[33.452s]   File "/home/eleclabs/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[33.452s]     import setuptools.version
+[33.509s]   File "/home/eleclabs/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[33.515s]     import pkg_resources
+[33.515s]   File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+[33.515s]     def _initialize_master_working_set():
+[33.516s]   File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+[33.516s]     f(*args, **kwargs)
+[33.516s]   File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+[33.516s]     working_set = WorkingSet._build_master()
+[33.517s]   File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+[33.517s]     ws = cls()
+[33.517s]   File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 552, in __init__
+[33.517s]     self.add_entry(entry)
+[33.517s]   File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+[33.518s]     for dist in find_distributions(entry, True):
+[33.518s]   File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2063, in find_on_path
+[33.518s]     for dist in factory(fullpath):
+[33.518s]   File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2121, in distributions_from_metadata
+[33.518s]     if len(os.listdir(path)) == 0:
+[33.518s] KeyboardInterrupt

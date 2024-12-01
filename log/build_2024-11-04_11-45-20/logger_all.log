@@ -1,0 +1,235 @@
+[0.234s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.234s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fb14e9b6e00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb14e9b6770>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb14e9b6770>>, mixin_verb=('build',))
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.528s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eleclabs/ros2_ws'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_camera) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_camera) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_camera) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_camera) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_camera) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_camera) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_camera) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_camera) by extension 'ros'
+[0.552s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_camera' with type 'ros.ament_python' and name 'my_camera'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_controller) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extensions ['colcon_meta']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extension 'colcon_meta'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extensions ['ros']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mypkg) by extension 'ros'
+[0.557s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mypkg' with type 'ros.ament_python' and name 'mypkg'
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.587s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/eleclabs/joy_ws/install
+[0.587s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/eleclabs/microros_ws/install
+[0.587s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/eleclabs/ros2_ws/install
+[0.589s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 407 installed packages in /opt/ros/humble
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'my_camera' build argument 'cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'my_camera' build argument 'cmake_target' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'my_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'my_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'my_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'my_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'my_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'my_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'my_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.627s] DEBUG:colcon.colcon_core.verb:Building package 'my_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eleclabs/ros2_ws/build/my_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eleclabs/ros2_ws/install/my_camera', 'merge_install': False, 'path': '/home/eleclabs/ros2_ws/src/my_camera', 'symlink_install': False, 'test_result_base': None}
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.628s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eleclabs/ros2_ws/build/my_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eleclabs/ros2_ws/install/my_robot_controller', 'merge_install': False, 'path': '/home/eleclabs/ros2_ws/src/my_robot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_target' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.628s] DEBUG:colcon.colcon_core.verb:Building package 'mypkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eleclabs/ros2_ws/build/mypkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eleclabs/ros2_ws/install/mypkg', 'merge_install': False, 'path': '/home/eleclabs/ros2_ws/src/mypkg', 'symlink_install': False, 'test_result_base': None}
+[0.628s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.629s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.630s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eleclabs/ros2_ws/src/my_camera' with build type 'ament_python'
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_camera', 'ament_prefix_path')
+[0.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/my_camera/share/my_camera/hook/ament_prefix_path.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleclabs/ros2_ws/install/my_camera/share/my_camera/hook/ament_prefix_path.dsv'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/my_camera/share/my_camera/hook/ament_prefix_path.sh'
+[0.640s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.640s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.644s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eleclabs/ros2_ws/src/my_robot_controller' with build type 'ament_python'
+[0.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'ament_prefix_path')
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.ps1'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleclabs/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.dsv'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.sh'
+[0.647s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.647s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.650s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eleclabs/ros2_ws/src/mypkg' with build type 'ament_python'
+[0.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('mypkg', 'ament_prefix_path')
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/hook/ament_prefix_path.ps1'
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/hook/ament_prefix_path.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/hook/ament_prefix_path.sh'
+[0.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.865s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eleclabs/ros2_ws/src/my_camera'
+[0.865s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.865s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.067s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eleclabs/ros2_ws/src/my_robot_controller'
+[1.068s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.266s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eleclabs/ros2_ws/src/mypkg'
+[1.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eleclabs/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/eleclabs/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/eleclabs/ros2_ws/build/my_robot_controller/build
+[1.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eleclabs/ros2_ws/src/mypkg': PYTHONPATH=/home/eleclabs/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/eleclabs/ros2_ws/build/mypkg/build install --record /home/eleclabs/ros2_ws/build/mypkg/install.log --single-version-externally-managed install_data
+[1.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eleclabs/ros2_ws/build/my_camera': PYTHONPATH=/home/eleclabs/ros2_ws/build/my_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/my_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/eleclabs/ros2_ws/build/my_camera/build
+[2.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eleclabs/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/eleclabs/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/eleclabs/ros2_ws/build/mypkg/build install --record /home/eleclabs/ros2_ws/build/mypkg/install.log --single-version-externally-managed install_data
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/mypkg' for CMake module files
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/mypkg' for CMake config files
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/mypkg/lib'
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/mypkg/bin'
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/mypkg/lib/pkgconfig/mypkg.pc'
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages'
+[2.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('mypkg', 'pythonpath')
+[2.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/hook/pythonpath.ps1'
+[2.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/hook/pythonpath.dsv'
+[2.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/hook/pythonpath.sh'
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/mypkg/bin'
+[2.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mypkg)
+[2.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.ps1'
+[2.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.dsv'
+[2.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.sh'
+[2.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.bash'
+[2.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.zsh'
+[2.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eleclabs/ros2_ws/install/mypkg/share/colcon-core/packages/mypkg)
+[2.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eleclabs/ros2_ws/build/my_camera' returned '0': PYTHONPATH=/home/eleclabs/ros2_ws/build/my_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/my_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/eleclabs/ros2_ws/build/my_camera/build
+[2.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eleclabs/ros2_ws/src/my_camera': PYTHONPATH=/home/eleclabs/ros2_ws/build/my_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/my_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_camera build --build-base /home/eleclabs/ros2_ws/build/my_camera/build install --record /home/eleclabs/ros2_ws/build/my_camera/install.log --single-version-externally-managed install_data --force
+[2.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eleclabs/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/eleclabs/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/eleclabs/ros2_ws/build/my_robot_controller/build
+[2.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eleclabs/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/eleclabs/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/eleclabs/ros2_ws/build/my_robot_controller/build install --record /home/eleclabs/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_camera' for CMake module files
+[2.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eleclabs/ros2_ws/src/my_camera' returned '0': PYTHONPATH=/home/eleclabs/ros2_ws/build/my_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/my_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_camera build --build-base /home/eleclabs/ros2_ws/build/my_camera/build install --record /home/eleclabs/ros2_ws/build/my_camera/install.log --single-version-externally-managed install_data --force
+[2.662s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_camera' for CMake config files
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_camera/lib'
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_camera/bin'
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_camera/lib/pkgconfig/my_camera.pc'
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_camera/lib/python3.10/site-packages'
+[2.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_camera', 'pythonpath')
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/my_camera/share/my_camera/hook/pythonpath.ps1'
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleclabs/ros2_ws/install/my_camera/share/my_camera/hook/pythonpath.dsv'
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/my_camera/share/my_camera/hook/pythonpath.sh'
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_camera/bin'
+[2.666s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_camera)
+[2.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/my_camera/share/my_camera/package.ps1'
+[2.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eleclabs/ros2_ws/install/my_camera/share/my_camera/package.dsv'
+[2.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/my_camera/share/my_camera/package.sh'
+[2.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/my_camera/share/my_camera/package.bash'
+[2.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/my_camera/share/my_camera/package.zsh'
+[2.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eleclabs/ros2_ws/install/my_camera/share/colcon-core/packages/my_camera)
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_robot_controller' for CMake module files
+[2.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eleclabs/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/eleclabs/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/eleclabs/ros2_ws/build/my_robot_controller/build install --record /home/eleclabs/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_robot_controller' for CMake config files
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_robot_controller/lib'
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_robot_controller/bin'
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_robot_controller/lib/pkgconfig/my_robot_controller.pc'
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages'
+[2.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'pythonpath')
+[2.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.ps1'
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eleclabs/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.dsv'
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eleclabs/ros2_ws/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.sh'
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/home/eleclabs/ros2_ws/install/my_robot_controller/bin'
+[2.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_controller)
+[2.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.ps1'
+[2.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eleclabs/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.dsv'
+[2.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.sh'
+[2.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.bash'
+[2.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/eleclabs/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.zsh'
+[2.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eleclabs/ros2_ws/install/my_robot_controller/share/colcon-core/packages/my_robot_controller)
+[2.675s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.676s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.712s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.713s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.713s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.713s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.714s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.714s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eleclabs/ros2_ws/install/local_setup.ps1'
+[2.716s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eleclabs/ros2_ws/install/_local_setup_util_ps1.py'
+[2.717s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eleclabs/ros2_ws/install/setup.ps1'
+[2.719s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eleclabs/ros2_ws/install/local_setup.sh'
+[2.720s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eleclabs/ros2_ws/install/_local_setup_util_sh.py'
+[2.721s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eleclabs/ros2_ws/install/setup.sh'
+[2.722s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eleclabs/ros2_ws/install/local_setup.bash'
+[2.723s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eleclabs/ros2_ws/install/setup.bash'
+[2.725s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eleclabs/ros2_ws/install/local_setup.zsh'
+[2.726s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eleclabs/ros2_ws/install/setup.zsh'

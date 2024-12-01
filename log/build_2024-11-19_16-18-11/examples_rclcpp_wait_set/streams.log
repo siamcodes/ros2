@@ -1,0 +1,95 @@
+[0.273s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/examples_rclcpp_wait_set
+[7.370s] -- The C compiler identification is GNU 11.4.0
+[7.371s] -- The CXX compiler identification is GNU 11.4.0
+[7.373s] -- Detecting C compiler ABI info
+[7.373s] -- Detecting C compiler ABI info - done
+[7.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.376s] -- Detecting C compile features
+[7.376s] -- Detecting C compile features - done
+[7.378s] -- Detecting CXX compiler ABI info
+[7.378s] -- Detecting CXX compiler ABI info - done
+[7.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.381s] -- Detecting CXX compile features
+[7.382s] -- Detecting CXX compile features - done
+[7.383s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.383s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.383s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.384s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[7.384s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.385s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.385s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.387s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[7.387s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.388s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[7.388s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[7.389s] -- Looking for pthread.h
+[7.389s] -- Looking for pthread.h - found
+[7.389s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.390s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.390s] -- Found Threads: TRUE  
+[7.391s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[7.391s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.421s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.427s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.431s] -- Configured cppcheck include dirs: /home/eleclabs/ros2_ws/src/examples/rclcpp/wait_set/include
+[7.432s] -- Configured cppcheck exclude dirs and/or files: 
+[7.432s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.437s] -- Configured cpplint exclude dirs and/or files: 
+[7.441s] -- Added test 'lint_cmake' to check CMake code style
+[7.443s] -- Added test 'uncrustify' to check C / C++ code style
+[7.443s] -- Configured uncrustify additional arguments: 
+[7.443s] -- Added test 'xmllint' to check XML markup files
+[7.444s] -- Configuring done
+[7.621s] -- Generating done
+[7.632s] -- Build files have been written to: /home/eleclabs/ros2_ws/build/examples_rclcpp_wait_set
+[7.703s] Invoked command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/examples_rclcpp_wait_set
+[7.704s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/examples_rclcpp_wait_set -- -j16 -l16
+[243.377s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[243.386s] [  8%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[243.391s] [ 12%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[243.392s] [ 16%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[243.394s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[243.394s] [ 25%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[243.395s] [ 29%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[243.395s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[243.395s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[243.396s] [ 41%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[243.396s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[243.396s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[243.397s] compilation terminated.
+[243.397s] gmake[2]: *** [CMakeFiles/wait_set_listener.dir/build.make:76: CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o] Error 1
+[243.398s] gmake[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/wait_set_listener.dir/all] Error 2
+[243.399s] gmake[1]: *** Waiting for unfinished jobs....
+[243.399s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[243.401s] compilation terminated.
+[243.401s] gmake[2]: *** [CMakeFiles/wait_set.dir/build.make:76: CMakeFiles/wait_set.dir/src/wait_set.cpp.o] Error 1
+[243.401s] gmake[1]: *** [CMakeFiles/Makefile2:263: CMakeFiles/wait_set.dir/all] Error 2
+[243.401s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[243.402s] compilation terminated.
+[243.402s] gmake[2]: *** [CMakeFiles/wait_set_topics_with_different_rates.dir/build.make:76: CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o] Error 1
+[243.402s] gmake[1]: *** [CMakeFiles/Makefile2:419: CMakeFiles/wait_set_topics_with_different_rates.dir/all] Error 2
+[243.402s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[243.403s] compilation terminated.
+[243.403s] gmake[2]: *** [CMakeFiles/executor_random_order.dir/build.make:76: CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o] Error 1
+[243.403s] gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/executor_random_order.dir/all] Error 2
+[243.403s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[243.404s] compilation terminated.
+[243.404s] gmake[2]: *** [CMakeFiles/thread_safe_wait_set.dir/build.make:76: CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o] Error 1
+[243.404s] gmake[1]: *** [CMakeFiles/Makefile2:315: CMakeFiles/thread_safe_wait_set.dir/all] Error 2
+[243.405s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[243.405s] compilation terminated.
+[243.405s] gmake[2]: *** [CMakeFiles/wait_set_random_order.dir/build.make:76: CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o] Error 1
+[243.406s] gmake[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/wait_set_random_order.dir/all] Error 2
+[313.239s] [ 50%] [32m[1mLinking CXX executable wait_set_talker[0m
+[314.632s] [ 50%] Built target wait_set_talker
+[331.815s] [ 54%] [32m[1mLinking CXX shared library libtalker.so[0m
+[332.960s] [ 54%] Built target talker
+[350.575s] [ 58%] [32m[1mLinking CXX executable static_wait_set[0m
+[352.039s] [ 58%] Built target static_wait_set
+[353.159s] [ 62%] [32m[1mLinking CXX shared library liblistener.so[0m
+[354.402s] [ 62%] Built target listener
+[355.268s] [ 66%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[356.356s] [ 66%] Built target wait_set_topics_and_timer
+[356.393s] gmake: *** [Makefile:146: all] Error 2

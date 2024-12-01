@@ -1,0 +1,63 @@
+[0.238s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition
+[3.844s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.845s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.845s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.846s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.846s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.847s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.848s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.848s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.849s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.850s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.851s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.852s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.853s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.854s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.854s] -- Configured cppcheck include dirs: /home/eleclabs/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[3.854s] -- Configured cppcheck exclude dirs and/or files: 
+[3.858s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.859s] -- Configured cpplint exclude dirs and/or files: 
+[3.859s] -- Added test 'lint_cmake' to check CMake code style
+[3.860s] -- Added test 'uncrustify' to check C / C++ code style
+[3.860s] -- Configured uncrustify additional arguments: 
+[3.861s] -- Added test 'xmllint' to check XML markup files
+[3.861s] -- Configuring done
+[3.862s] -- Generating done
+[3.862s] -- Build files have been written to: /home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_composition
+[4.040s] Invoked command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition
+[4.046s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[4.250s] [35m[1mConsolidate compiler generated dependencies of target composition_nodes[0m
+[4.421s] [ 33%] Built target composition_nodes
+[4.559s] [35m[1mConsolidate compiler generated dependencies of target composition_publisher[0m
+[4.560s] [35m[1mConsolidate compiler generated dependencies of target composition_subscriber[0m
+[4.561s] [35m[1mConsolidate compiler generated dependencies of target composition_composed[0m
+[4.661s] [ 55%] Built target composition_publisher
+[4.727s] [ 77%] Built target composition_composed
+[4.743s] [100%] Built target composition_subscriber
+[4.837s] Invoked command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[5.498s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake --install /home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_composition
+[6.190s] -- Install configuration: ""
+[6.191s] -- Execute custom install script
+[6.191s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[6.191s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[6.191s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[6.191s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[6.192s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[6.192s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[6.192s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[6.192s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[6.193s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[6.193s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[6.193s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[6.241s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[6.307s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[6.370s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[6.482s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[6.559s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[6.639s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[6.710s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[6.800s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[6.868s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[6.949s] -- Symlinking: /home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[10.560s] Invoked command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake --install /home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_composition

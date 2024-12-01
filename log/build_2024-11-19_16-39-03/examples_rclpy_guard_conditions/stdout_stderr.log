@@ -1,0 +1,35 @@
+running develop
+Removing /home/eleclabs/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+Traceback (most recent call last):
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2638, in key
+    return self._key
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2813, in __getattr__
+    raise AttributeError(attr)
+AttributeError: _key. Did you mean: 'key'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/eleclabs/ros2_ws/src/examples/rclpy/guard_conditions/setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+    def _initialize_master_working_set():
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+    f(*args, **kwargs)
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+    ws = cls()
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 552, in __init__
+    self.add_entry(entry)
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 609, in add_entry
+    self.add(dist, entry, False)
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 689, in add
+    if not replace and dist.key in self.by_key:
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2638, in key
+    return self._key
+KeyboardInterrupt

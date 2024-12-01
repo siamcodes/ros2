@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "/home/eleclabs/ros2_ws/src/examples/rclpy/services/minimal_service/setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+    def _initialize_master_working_set():
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+    f(*args, **kwargs)
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+    ws = cls()
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 552, in __init__
+    self.add_entry(entry)
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2063, in find_on_path
+    for dist in factory(fullpath):
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2128, in distributions_from_metadata
+    yield Distribution.from_location(
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2591, in from_location
+    )._reload_version()
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2989, in _reload_version
+    md_version = self._get_version()
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2770, in _get_version
+    version = _version_from_file(lines)
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2556, in _version_from_file
+    return safe_version(value.strip()) or None
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1318, in safe_version
+    return str(packaging.version.Version(version))
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 282, in __init__
+    release=tuple(int(i) for i in match.group("release").split(".")),
+  File "/home/eleclabs/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 282, in <genexpr>
+    release=tuple(int(i) for i in match.group("release").split(".")),
+KeyboardInterrupt

@@ -1,0 +1,72 @@
+[0.303s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_publisher
+[3.909s] -- The C compiler identification is GNU 11.4.0
+[3.909s] -- The CXX compiler identification is GNU 11.4.0
+[3.909s] -- Detecting C compiler ABI info
+[3.910s] -- Detecting C compiler ABI info - done
+[3.911s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.912s] -- Detecting C compile features
+[3.913s] -- Detecting C compile features - done
+[3.914s] -- Detecting CXX compiler ABI info
+[3.914s] -- Detecting CXX compiler ABI info - done
+[3.915s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.916s] -- Detecting CXX compile features
+[3.918s] -- Detecting CXX compile features - done
+[3.918s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.339s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.528s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.644s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[5.098s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.124s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.173s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.570s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.588s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.715s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.765s] -- Looking for pthread.h
+[6.181s] -- Looking for pthread.h - found
+[6.182s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.531s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.533s] -- Found Threads: TRUE  
+[6.900s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.285s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.291s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.291s] -- Configured cppcheck include dirs: 
+[7.292s] -- Configured cppcheck exclude dirs and/or files: 
+[7.298s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.299s] -- Configured cpplint exclude dirs and/or files: 
+[7.301s] -- Added test 'lint_cmake' to check CMake code style
+[7.307s] -- Added test 'uncrustify' to check C / C++ code style
+[7.307s] -- Configured uncrustify additional arguments: 
+[7.310s] -- Added test 'xmllint' to check XML markup files
+[7.324s] -- Configuring done
+[7.425s] -- Generating done
+[7.426s] -- Build files have been written to: /home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_publisher
+[7.525s] Invoked command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_publisher
+[7.534s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[8.355s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[8.356s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[8.356s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[8.356s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[8.357s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[8.357s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[97.491s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[97.498s] compilation terminated.
+[97.499s] gmake[2]: *** [CMakeFiles/publisher_lambda.dir/build.make:76: CMakeFiles/publisher_lambda.dir/lambda.cpp.o] Error 1
+[97.523s] gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/publisher_lambda.dir/all] Error 2
+[97.534s] gmake[1]: *** Waiting for unfinished jobs....
+[124.798s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[124.803s] compilation terminated.
+[124.834s] gmake[2]: *** [CMakeFiles/publisher_wait_for_all_acked.dir/build.make:76: CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o] Error 1
+[124.855s] gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/publisher_wait_for_all_acked.dir/all] Error 2
+[162.123s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[162.135s] compilation terminated.
+[162.135s] gmake[2]: *** [CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/build.make:76: CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o] Error 1
+[162.135s] gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/all] Error 2
+[332.864s] [ 58%] [32m[1mLinking CXX executable publisher_member_function[0m
+[333.782s] [ 58%] Built target publisher_member_function
+[335.142s] [ 66%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[336.180s] [ 66%] Built target publisher_not_composable
+[336.737s] [ 75%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[337.411s] [ 75%] Built target publisher_member_function_with_type_adapter
+[337.442s] gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,99 @@
+[0.289s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[3.902s] -- The C compiler identification is GNU 11.4.0
+[3.903s] -- The CXX compiler identification is GNU 11.4.0
+[3.903s] -- Detecting C compiler ABI info
+[3.903s] -- Detecting C compiler ABI info - done
+[3.904s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.904s] -- Detecting C compile features
+[3.904s] -- Detecting C compile features - done
+[3.904s] -- Detecting CXX compiler ABI info
+[3.904s] -- Detecting CXX compiler ABI info - done
+[3.905s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.905s] -- Detecting CXX compile features
+[3.906s] -- Detecting CXX compile features - done
+[3.907s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.912s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.222s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.449s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[5.073s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.101s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.146s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.311s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.544s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.562s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.689s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.738s] -- Looking for pthread.h
+[6.155s] -- Looking for pthread.h - found
+[6.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.483s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.484s] -- Found Threads: TRUE  
+[6.853s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[7.091s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.436s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.437s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.437s] -- Configured cppcheck include dirs: 
+[7.438s] -- Configured cppcheck exclude dirs and/or files: 
+[7.440s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.441s] -- Configured cpplint exclude dirs and/or files: 
+[7.443s] -- Added test 'lint_cmake' to check CMake code style
+[7.447s] -- Added test 'uncrustify' to check C / C++ code style
+[7.452s] -- Configured uncrustify additional arguments: 
+[7.453s] -- Added test 'xmllint' to check XML markup files
+[7.455s] -- Configuring done
+[7.575s] -- Generating done
+[7.584s] -- Build files have been written to: /home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[7.631s] Invoked command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[7.632s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[162.337s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[162.339s] compilation terminated.
+[162.340s] gmake[2]: *** [CMakeFiles/wait_set_subscriber.dir/build.make:76: CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o] Error 1
+[162.340s] gmake[1]: *** [CMakeFiles/Makefile2:365: CMakeFiles/wait_set_subscriber.dir/all] Error 2
+[162.341s] gmake[1]: *** Waiting for unfinished jobs....
+[162.341s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[162.342s] compilation terminated.
+[162.342s] gmake[2]: *** [CMakeFiles/wait_set_subscriber_library.dir/build.make:76: CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o] Error 1
+[162.342s] gmake[2]: *** Waiting for unfinished jobs....
+[162.342s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[162.343s] compilation terminated.
+[162.343s] gmake[2]: *** [CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/build.make:76: CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o] Error 1
+[162.343s] gmake[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/all] Error 2
+[162.345s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[162.345s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[162.346s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[162.346s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[162.346s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[162.347s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[162.347s] [ 29%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[162.347s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[162.348s] [ 37%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[162.349s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[162.349s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[162.350s] [ 50%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[162.350s] [ 54%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[207.181s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[207.185s] compilation terminated.
+[207.228s] gmake[2]: *** [CMakeFiles/time_triggered_wait_set_subscriber.dir/build.make:76: CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o] Error 1
+[207.255s] gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/time_triggered_wait_set_subscriber.dir/all] Error 2
+[237.152s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[237.155s] compilation terminated.
+[237.174s] gmake[2]: *** [CMakeFiles/subscriber_content_filtering.dir/build.make:76: CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o] Error 1
+[237.189s] gmake[1]: *** [CMakeFiles/Makefile2:313: CMakeFiles/subscriber_content_filtering.dir/all] Error 2
+[243.226s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[243.227s] compilation terminated.
+[243.260s] gmake[2]: *** [CMakeFiles/static_wait_set_subscriber.dir/build.make:76: CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o] Error 1
+[243.279s] gmake[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/static_wait_set_subscriber.dir/all] Error 2
+[309.910s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[309.929s] compilation terminated.
+[309.931s] gmake[2]: *** [CMakeFiles/subscriber_member_function_with_type_adapter.dir/build.make:76: CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o] Error 1
+[309.931s] gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/subscriber_member_function_with_type_adapter.dir/all] Error 2
+[349.381s] [ 58%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[349.850s] [ 62%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[350.792s] [ 62%] Built target subscriber_lambda
+[351.297s] [ 62%] Built target subscriber_not_composable
+[351.350s] [ 66%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[352.461s] [ 66%] Built target subscriber_member_function
+[352.822s] [ 70%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[353.959s] [ 70%] Built target subscriber_member_function_with_topic_statistics
+[355.026s] gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/wait_set_subscriber_library.dir/all] Error 2
+[355.049s] gmake: *** [Makefile:146: all] Error 2

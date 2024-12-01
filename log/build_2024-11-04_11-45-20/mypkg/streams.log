@@ -1,0 +1,40 @@
+[1.178s] Invoking command in '/home/eleclabs/ros2_ws/src/mypkg': PYTHONPATH=/home/eleclabs/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/eleclabs/ros2_ws/build/mypkg/build install --record /home/eleclabs/ros2_ws/build/mypkg/install.log --single-version-externally-managed install_data
+[1.414s] running egg_info
+[1.415s] creating ../../build/mypkg/mypkg.egg-info
+[1.415s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.415s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.416s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.416s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.416s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.416s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.417s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.417s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.418s] running build
+[1.418s] running build_py
+[1.418s] creating /home/eleclabs/ros2_ws/build/mypkg/build
+[1.418s] creating /home/eleclabs/ros2_ws/build/mypkg/build/lib
+[1.418s] creating /home/eleclabs/ros2_ws/build/mypkg/build/lib/mypkg
+[1.419s] copying mypkg/__init__.py -> /home/eleclabs/ros2_ws/build/mypkg/build/lib/mypkg
+[1.419s] copying mypkg/lab1.py -> /home/eleclabs/ros2_ws/build/mypkg/build/lib/mypkg
+[1.419s] copying mypkg/first_node.py -> /home/eleclabs/ros2_ws/build/mypkg/build/lib/mypkg
+[1.419s] running install
+[1.419s] running install_lib
+[1.420s] creating /home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.420s] copying /home/eleclabs/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.420s] copying /home/eleclabs/ros2_ws/build/mypkg/build/lib/mypkg/lab1.py -> /home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.420s] copying /home/eleclabs/ros2_ws/build/mypkg/build/lib/mypkg/first_node.py -> /home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.421s] byte-compiling /home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[1.422s] byte-compiling /home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/lab1.py to lab1.cpython-310.pyc
+[1.422s] byte-compiling /home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/first_node.py to first_node.cpython-310.pyc
+[1.422s] running install_data
+[1.423s] creating /home/eleclabs/ros2_ws/install/mypkg/share/ament_index
+[1.423s] creating /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index
+[1.423s] creating /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[1.423s] copying resource/mypkg -> /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[1.424s] copying package.xml -> /home/eleclabs/ros2_ws/install/mypkg/share/mypkg
+[1.424s] running install_egg_info
+[1.425s] Copying ../../build/mypkg/mypkg.egg-info to /home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[1.426s] running install_scripts
+[1.440s] Installing first_publisher script to /home/eleclabs/ros2_ws/install/mypkg/lib/mypkg
+[1.441s] writing list of installed files to '/home/eleclabs/ros2_ws/build/mypkg/install.log'
+[1.461s] Invoked command in '/home/eleclabs/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/eleclabs/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/eleclabs/ros2_ws/build/mypkg/build install --record /home/eleclabs/ros2_ws/build/mypkg/install.log --single-version-externally-managed install_data

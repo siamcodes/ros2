@@ -1,0 +1,37 @@
+[4.435s] Invoking command in '/home/eleclabs/ros2_ws/src/pkg_py': PYTHONPATH=/home/eleclabs/ros2_ws/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/pkg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/eleclabs/ros2_ws/build/pkg_py/build install --record /home/eleclabs/ros2_ws/build/pkg_py/install.log --single-version-externally-managed install_data
+[5.201s] running egg_info
+[5.202s] creating ../../build/pkg_py/pkg_py.egg-info
+[5.203s] writing ../../build/pkg_py/pkg_py.egg-info/PKG-INFO
+[5.204s] writing dependency_links to ../../build/pkg_py/pkg_py.egg-info/dependency_links.txt
+[5.205s] writing entry points to ../../build/pkg_py/pkg_py.egg-info/entry_points.txt
+[5.205s] writing requirements to ../../build/pkg_py/pkg_py.egg-info/requires.txt
+[5.205s] writing top-level names to ../../build/pkg_py/pkg_py.egg-info/top_level.txt
+[5.206s] writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[5.208s] reading manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[5.210s] writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[5.211s] running build
+[5.211s] running build_py
+[5.212s] creating /home/eleclabs/ros2_ws/build/pkg_py/build
+[5.212s] creating /home/eleclabs/ros2_ws/build/pkg_py/build/lib
+[5.212s] creating /home/eleclabs/ros2_ws/build/pkg_py/build/lib/pkg_py
+[5.212s] copying pkg_py/__init__.py -> /home/eleclabs/ros2_ws/build/pkg_py/build/lib/pkg_py
+[5.213s] copying pkg_py/my_node.py -> /home/eleclabs/ros2_ws/build/pkg_py/build/lib/pkg_py
+[5.213s] running install
+[5.214s] running install_lib
+[5.216s] creating /home/eleclabs/ros2_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py
+[5.216s] copying /home/eleclabs/ros2_ws/build/pkg_py/build/lib/pkg_py/__init__.py -> /home/eleclabs/ros2_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py
+[5.217s] copying /home/eleclabs/ros2_ws/build/pkg_py/build/lib/pkg_py/my_node.py -> /home/eleclabs/ros2_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py
+[5.218s] byte-compiling /home/eleclabs/ros2_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py/__init__.py to __init__.cpython-310.pyc
+[5.220s] byte-compiling /home/eleclabs/ros2_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py/my_node.py to my_node.cpython-310.pyc
+[5.220s] running install_data
+[5.220s] creating /home/eleclabs/ros2_ws/install/pkg_py/share/ament_index
+[5.221s] creating /home/eleclabs/ros2_ws/install/pkg_py/share/ament_index/resource_index
+[5.222s] creating /home/eleclabs/ros2_ws/install/pkg_py/share/ament_index/resource_index/packages
+[5.223s] copying resource/pkg_py -> /home/eleclabs/ros2_ws/install/pkg_py/share/ament_index/resource_index/packages
+[5.223s] copying package.xml -> /home/eleclabs/ros2_ws/install/pkg_py/share/pkg_py
+[5.224s] running install_egg_info
+[5.229s] Copying ../../build/pkg_py/pkg_py.egg-info to /home/eleclabs/ros2_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py-0.0.0-py3.10.egg-info
+[5.232s] running install_scripts
+[5.288s] Installing my_node script to /home/eleclabs/ros2_ws/install/pkg_py/lib/pkg_py
+[5.289s] writing list of installed files to '/home/eleclabs/ros2_ws/build/pkg_py/install.log'
+[5.394s] Invoked command in '/home/eleclabs/ros2_ws/src/pkg_py' returned '0': PYTHONPATH=/home/eleclabs/ros2_ws/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/pkg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/eleclabs/ros2_ws/build/pkg_py/build install --record /home/eleclabs/ros2_ws/build/pkg_py/install.log --single-version-externally-managed install_data

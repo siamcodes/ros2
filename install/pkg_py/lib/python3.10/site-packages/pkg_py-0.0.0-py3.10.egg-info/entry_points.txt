@@ -1,0 +1,3 @@
+[console_scripts]
+my_node = pkg_py.my_node:main
+

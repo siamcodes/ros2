@@ -1,0 +1,50 @@
+[0.331s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/examples_rclcpp_async_client
+[3.935s] -- The C compiler identification is GNU 11.4.0
+[3.936s] -- The CXX compiler identification is GNU 11.4.0
+[3.936s] -- Detecting C compiler ABI info
+[3.938s] -- Detecting C compiler ABI info - done
+[3.938s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.939s] -- Detecting C compile features
+[3.939s] -- Detecting C compile features - done
+[3.940s] -- Detecting CXX compiler ABI info
+[3.940s] -- Detecting CXX compiler ABI info - done
+[3.941s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.942s] -- Detecting CXX compile features
+[3.942s] -- Detecting CXX compile features - done
+[3.943s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.127s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.389s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.575s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[5.204s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.232s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.278s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.682s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[5.840s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.851s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.951s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.986s] -- Looking for pthread.h
+[6.368s] -- Looking for pthread.h - found
+[6.369s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.786s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.789s] -- Found Threads: TRUE  
+[6.997s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.389s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.402s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.402s] -- Configured cppcheck include dirs: 
+[7.402s] -- Configured cppcheck exclude dirs and/or files: 
+[7.404s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.404s] -- Configured cpplint exclude dirs and/or files: 
+[7.406s] -- Added test 'lint_cmake' to check CMake code style
+[7.411s] -- Added test 'uncrustify' to check C / C++ code style
+[7.412s] -- Configured uncrustify additional arguments: 
+[7.413s] -- Added test 'xmllint' to check XML markup files
+[7.428s] -- Configuring done
+[7.459s] -- Generating done
+[7.477s] -- Build files have been written to: /home/eleclabs/ros2_ws/build/examples_rclcpp_async_client
+[7.521s] Invoked command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/examples_rclcpp_async_client
+[7.525s] Invoking command in '/home/eleclabs/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/my_robot_controller:/home/eleclabs/ros2_ws/install/my_camera:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/examples_rclcpp_async_client -- -j16 -l16
+[7.640s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[328.498s] [100%] [32m[1mLinking CXX executable client_main[0m
+[329.972s] [100%] Built target client_main

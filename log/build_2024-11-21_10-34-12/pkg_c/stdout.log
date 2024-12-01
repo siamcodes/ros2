@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[100%] Built target my_node
+-- Install configuration: ""
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/lib/pkg_c/my_node
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/ament_index/resource_index/package_run_dependencies/pkg_c
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/ament_index/resource_index/parent_prefix_path/pkg_c
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/environment/ament_prefix_path.sh
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/environment/path.sh
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/environment/path.dsv
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/local_setup.bash
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/local_setup.sh
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/local_setup.zsh
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/local_setup.dsv
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/package.dsv
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/ament_index/resource_index/packages/pkg_c
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/cmake/pkg_cConfig.cmake
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/cmake/pkg_cConfig-version.cmake
+-- Up-to-date: /home/eleclabs/ros2_ws/install/pkg_c/share/pkg_c/package.xml
